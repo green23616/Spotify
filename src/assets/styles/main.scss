@@ -7,3 +7,9 @@
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
 }
+
+@mixin mixin-flex($justify) {
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+}
