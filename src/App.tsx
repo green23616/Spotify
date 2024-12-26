@@ -1,13 +1,14 @@
-import styles from './app.module.scss';
+import { BrowserRouter, Route, Routes } from 'react-router';
+// Component
+import Main from './pages/Main';
 
 function App() {
   return (
-    <div>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, quod.
-      Ipsam doloremque reiciendis autem, aspernatur quae culpa reprehenderit
-      nesciunt quod ex provident debitis, excepturi, maiores a ullam maxime fuga
-      ipsum.
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Main />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
