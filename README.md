@@ -1,6 +1,13 @@
-# Project -
+# React Starter
 
-## 개발환경
+## 개발세팅
+
+- React 18.3.1 + Typescript with Vite
+- React Router
+- Recoil
+- Axios
+- SCSS
+- Google Material Icons
 
 ## 개발목표
 
@@ -8,8 +15,9 @@
 
 **준비**
 
-**구조**
+- State 정의
+- HTML 구조
 
-**Main Page**
+**구조**
 
 ## 개발이슈
